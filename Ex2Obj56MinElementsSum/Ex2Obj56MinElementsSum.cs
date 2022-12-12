@@ -21,7 +21,7 @@ MinimalSumOfElementsRow(array);
 PrintSmallestResult(minimalSumOfElementsRow);
 
 int minimalRowSummary = PrintSmallestResult(minimalSumOfElementsRow);
-Console.WriteLine($"Минимальная сумма, строка ----> {minimalRowSummary}");
+Console.WriteLine($"Минимальная сумма, строка ----> {minimalRowSummary + 1}");
 
 int[,] GetArray(int m, int n, int minValue, int maxValue)
 {
